@@ -3,7 +3,7 @@
 A local-first personal finance dashboard built with React. Track income and expenses, monitor SIP investments, manage loans, and get analytics — all stored in your browser with no backend required.
 
 ## Live Demo
-[
+[Deployed URL
 ](https://fin-pulse-finance-dashboard.vercel.app/)
 ## Features
 
