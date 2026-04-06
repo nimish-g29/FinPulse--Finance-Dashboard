@@ -131,6 +131,3 @@ npm run build
 ---
 
 ## Screenshots
-
-### Settings
-![Settings](./screenshots/settings.png)
