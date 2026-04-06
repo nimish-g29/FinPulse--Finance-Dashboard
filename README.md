@@ -135,3 +135,21 @@ npm run build
 ### Dashboard
 ![Dashboard](./screenshots/dashboard.png)
 ![Dashboard 2](./screenshots/dashboard2.png)
+
+### Analytics
+![Analytics](./screenshots/analytics.png)
+![Analytics 2](./screenshots/analytics2.png)
+
+### Transactions
+![Transactions](./screenshots/transactions.png)
+
+### Savings (SIP)
+![Savings](./screenshots/savings.png)
+![Savings 2](./screenshots/savings2.png)
+
+### Loans
+![Loans](./screenshots/loans.png)
+![Loans 2](./screenshots/loans2.png)
+
+### Settings
+![Settings](./screenshots/settings.png)
