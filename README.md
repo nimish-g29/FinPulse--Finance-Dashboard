@@ -4,7 +4,7 @@ A local-first personal finance dashboard built with React. Track income and expe
 
 ## Live Demo
 
-(https://fin-pulse-finance-dashboard.vercel.app/)
+fin-pulse-finance-dashboard-jofqcscnn.vercel.app
 
 ## Features
 
