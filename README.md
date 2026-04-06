@@ -127,3 +127,29 @@ npm run build
 - Budget planning module  
 - AI-based spending insights  
 - Mobile app version  
+
+---
+
+## Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard2.png)
+
+### Analytics
+![Analytics](./screenshots/analytics.png)
+![Analytics](./screenshots/analytics2.png)
+
+### Transactions
+![Transactions](./screenshots/transactions.png)
+
+### Savings (SIP)
+![Savings](./screenshots/savings.png)
+![Savings](./screenshots/savings2.png)
+
+### Loans
+![Loans](./screenshots/loans.png)
+![Loans](./screenshots/loans2.png)
+
+### Settings
+![Settings](./screenshots/settings.png)
