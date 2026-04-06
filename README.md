@@ -1,16 +1,53 @@
-# React + Vite
+# FinPulse — Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A local-first personal finance dashboard built with React. Track income and expenses, monitor SIP investments, manage loans, and get analytics — all stored in your browser with no backend required.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Add your deployed URL here
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Dashboard** — Net balance, income/expense stat cards, cash flow chart, spending by category (pie chart), and recent activity table
+- **Transactions** — Full ledger with search, sort, and type filters. Click any row to view or edit. Export to CSV or Excel
+- **Analytics** — Monthly income vs expense bar chart, expense distribution, balance trend, ranked category breakdowns
+- **Savings (SIP)** — Track multiple SIP plans with projected corpus, growth path chart, and maturity details
+- **Loans** — EMI calculator with amortization schedule, outstanding balance tracker, and principal vs interest breakdown
+- **Date range filter** — Filter all dashboard, transaction, and analytics data by month or custom date range
+- **Dark mode** — Fully supported, saved to device
+- **Admin / Viewer roles** — Viewer is read-only, Admin can add, edit, delete, and reset data
+- **Admin password protection** — Password-gated admin access, changeable from Settings (default: `admin123`)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- Tailwind CSS
+- Recharts
+- SheetJS (xlsx) for Excel export
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## Usage
+
+- Open the app — it starts in **Viewer** mode (read-only)
+- Click **Admin** in the top-right and enter the password (`admin123`) to unlock editing
+- Use **Load sample data** on the Dashboard, Savings, and Loans tabs to explore with pre-filled data
+- All data is stored in `localStorage` — nothing leaves your browser
+
+## Notes
+
+- No backend, no database, no authentication server — entirely client-side
+- Data persists across sessions via `localStorage`. Clearing browser site data will reset everything
+- The admin password is stored in `localStorage` and is intended for demo/assessment use only
