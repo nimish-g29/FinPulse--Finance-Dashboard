@@ -131,3 +131,7 @@ npm run build
 ---
 
 ## Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+![Dashboard 2](./screenshots/dashboard2.png)
